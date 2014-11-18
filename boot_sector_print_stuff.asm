@@ -24,9 +24,9 @@ call print_hex
 
 jmp $           ; Jump to the current address
 
-%include "print/string.inc"
-%include "print/hex2.inc"
-%include "disk/load.inc"
+%include "print/string.asm"
+%include "print/hex2.asm"
+%include "disk/load.asm"
 
 ; Global Variables
 foobar: db "aaaa",0
