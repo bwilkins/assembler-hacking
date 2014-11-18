@@ -1,4 +1,4 @@
-
+; This represents the current print_hex method
 
 print_hex:
   pusha

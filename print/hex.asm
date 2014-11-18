@@ -1,3 +1,6 @@
+; This file represents an older, flawed hex printing function,
+; which would go through and print everything it found until
+; it would hit a null terminator, and then stop.
 
 print_hex:
   pusha
