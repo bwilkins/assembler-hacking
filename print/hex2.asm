@@ -1,5 +1,7 @@
 ; This represents the current print_hex method
 
+[bits 16]
+
 print_hex:
   pusha
   mov ax, hex_word              ; ax contains the byte index into hex_word that we

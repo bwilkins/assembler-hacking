@@ -1,4 +1,6 @@
 
+[bits 16]
+
 print_string:     ;
   pusha
   mov ah, 0x0e    ; int 10/ah = 0eh -> scrolling teletype BIOS routine

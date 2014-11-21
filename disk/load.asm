@@ -1,4 +1,6 @@
 
+[bits 16]
+
 DISK_ERROR_MSG: db "Disk read error!",0
 
 disk_load:
