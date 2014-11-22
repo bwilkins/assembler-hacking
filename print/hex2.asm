@@ -30,7 +30,7 @@ print_hex_loop:                 ; Inside the loop
 
   add dx, 0x7                  ; add 0x11 to cx ("A" - "0" - 10)
 
-print_hex_store_nibble          ; Store nibble
+print_hex_store_nibble:         ; Store nibble
 
   push bx                       ; Push the current value of bx onto the stack
   mov bx, ax                    ; Move our index into hex_word into bx for writing
